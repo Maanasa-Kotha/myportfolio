@@ -1,5 +1,7 @@
 body {
   background-color:  #33C4FF;
 }
-
+h1,h2,h3,h4 {
+  font-family: Arial, Verdana;
+}
 
