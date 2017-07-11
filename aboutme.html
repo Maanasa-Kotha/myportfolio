@@ -1,7 +1,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="/styles.css"/>
-    <title>Maanasa Kotha</title>		  
+    <title>Maanasa Kotha</title>	  
   </head>
   <body> 
   <script>
@@ -76,7 +76,17 @@
 	  to come. I would love robots delivering packages and food but would be scared of them taking over the world or getting hacked or robotic wars. It worked well
 	  when eah one of us took turns building circuits and doing a part each and trying eachother's ideas. We had a good physics background so that helped quite a bit for 
 	  knowing how to build a circuit.</p>
-	   <img src="19549379_1769657756659425_1495015054_o.jpg" alt="Circuit Picture" style="width:200px;height:150px;">
+	   <img onmouseover="bigImage(this)" onmouseout="normalImage(this)" src="19549379_1769657756659425_1495015054_o.jpg" alt="Circuit Picture" width="200" height="150">
+      <script>
+      	function bigImage(x){
+        	x.style.width = "300px";
+            x.style.height = "225px";
+        }
+        function normalImage(x){
+        	x.style.width = "200px";
+            x.style.height = "150px";
+        }
+      </script>
 	  <p>Reflection Week 3.4</p>
 	  <p> I learnt how to make a robot move in these few days with servos, play noises and songs with piezo sensors, create circuits with leds, and use whiskers to create
 	  basic touch sensors by completeing circuits. We learned the basics of electronics and hardware and how to prototype with an arduino. </p>
@@ -88,4 +98,6 @@
   </body>
     
 </html>
+
+
 
